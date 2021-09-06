@@ -1,0 +1,115 @@
+Vapor
+
+Running 1m test @ http://169.254.238.54:8085/simple
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.29ms    1.64ms  53.52ms   91.81%
+    Req/Sec     5.55k   562.93     6.82k    66.51%
+  1327352 requests in 1.00m, 179.63MB read
+Requests/sec:  22085.47
+Transfer/sec:      2.99MB
+
+Running 1m test @ http://169.254.238.54:8085/json
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.40ms    1.97ms  79.48ms   93.04%
+    Req/Sec     5.38k   476.62     6.51k    66.71%
+  1285447 requests in 1.00m, 681.60MB read
+Requests/sec:  21423.10
+Transfer/sec:     11.36MB
+
+Running 1m test @ http://169.254.238.54:8085/static.html
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.56ms    1.68ms  62.92ms   91.57%
+    Req/Sec     4.91k   526.10     6.99k    62.63%
+  1174664 requests in 1.00m, 170.28MB read
+Requests/sec:  19544.97
+Transfer/sec:      2.83MB
+
+Node
+
+Running 1m test @ http://169.254.238.54:8086/simple
+  6 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.28ms   15.66ms 257.40ms   93.39%
+    Req/Sec     6.12k     1.30k   12.95k    75.92%
+  2196821 requests in 1.00m, 471.16MB read
+Requests/sec:  36552.14
+Transfer/sec:      7.84MB
+
+Running 1m test @ http://169.254.238.54:8086/json
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.70ms   16.80ms 251.52ms   93.29%
+    Req/Sec     8.58k     1.11k   12.92k    78.24%
+  2051916 requests in 1.00m, 1.23GB read
+Requests/sec:  34141.83
+Transfer/sec:     20.90MB
+
+Running 1m test @ http://169.254.238.54:8086/static.html
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     9.36ms   25.19ms 254.44ms   91.36%
+    Req/Sec     7.01k     1.21k   10.71k    72.21%
+  1676733 requests in 1.00m, 498.91MB read
+Requests/sec:  27898.71
+Transfer/sec:      8.30MB
+
+Spring Boot
+
+Running 1m test @ http://169.254.238.54:8087/simple
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.46ms   23.86ms 438.01ms   97.21%
+    Req/Sec     6.17k     1.30k    8.18k    86.75%
+  1460237 requests in 1.00m, 175.59MB read
+Requests/sec:  24313.21
+Transfer/sec:      2.92MB
+
+Running 1m test @ http://169.254.238.54:8087/json
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     3.07ms   16.39ms 447.88ms   99.22%
+    Req/Sec     6.37k   783.94     7.96k    71.69%
+  1519358 requests in 1.00m, 795.78MB read
+Requests/sec:  25313.38
+Transfer/sec:     13.26MB
+
+Running 1m test @ http://169.254.238.54:8087/static.html
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     4.52ms   10.15ms 223.71ms   96.51%
+    Req/Sec     3.90k   538.97     8.26k    83.99%
+  928020 requests in 1.00m, 225.85MB read
+Requests/sec:  15449.25
+Transfer/sec:      3.76MB
+
+Gin
+
+Running 1m test @ http://169.254.238.54:8088/simple
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   410.14us  243.36us  22.78ms   92.04%
+    Req/Sec    30.04k     1.11k   32.10k    85.27%
+  7185111 requests in 1.00m, 814.66MB read
+Requests/sec: 119552.05
+Transfer/sec:     13.56MB
+
+Running 1m test @ http://169.254.238.54:8088/json
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   624.26us  529.39us  34.36ms   86.03%
+    Req/Sec    21.35k   808.49    22.89k    81.45%
+  5107281 requests in 1.00m, 2.25GB read
+Requests/sec:  84980.07
+Transfer/sec:     38.40MB
+
+Running 1m test @ http://169.254.238.54:8088/static.html
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   569.20us  497.17us  18.14ms   89.59%
+    Req/Sec    23.93k     0.87k   25.45k    79.03%
+  5724528 requests in 1.00m, 0.98GB read
+Requests/sec:  95249.22
+Transfer/sec:     16.62MB
