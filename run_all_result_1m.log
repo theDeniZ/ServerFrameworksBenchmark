@@ -27,35 +27,6 @@ Running 1m test @ http://169.254.238.54:8085/static.html
 Requests/sec:  19544.97
 Transfer/sec:      2.83MB
 
-Node
-
-Running 1m test @ http://169.254.238.54:8086/simple
-  6 threads and 50 connections
-  Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     5.28ms   15.66ms 257.40ms   93.39%
-    Req/Sec     6.12k     1.30k   12.95k    75.92%
-  2196821 requests in 1.00m, 471.16MB read
-Requests/sec:  36552.14
-Transfer/sec:      7.84MB
-
-Running 1m test @ http://169.254.238.54:8086/json
-  4 threads and 50 connections
-  Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     5.70ms   16.80ms 251.52ms   93.29%
-    Req/Sec     8.58k     1.11k   12.92k    78.24%
-  2051916 requests in 1.00m, 1.23GB read
-Requests/sec:  34141.83
-Transfer/sec:     20.90MB
-
-Running 1m test @ http://169.254.238.54:8086/static.html
-  4 threads and 50 connections
-  Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     9.36ms   25.19ms 254.44ms   91.36%
-    Req/Sec     7.01k     1.21k   10.71k    72.21%
-  1676733 requests in 1.00m, 498.91MB read
-Requests/sec:  27898.71
-Transfer/sec:      8.30MB
-
 Spring Boot
 
 Running 1m test @ http://169.254.238.54:8087/simple
@@ -84,6 +55,35 @@ Running 1m test @ http://169.254.238.54:8087/static.html
   928020 requests in 1.00m, 225.85MB read
 Requests/sec:  15449.25
 Transfer/sec:      3.76MB
+
+Node
+
+Running 1m test @ http://169.254.238.54:8086/simple
+  6 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.28ms   15.66ms 257.40ms   93.39%
+    Req/Sec     6.12k     1.30k   12.95k    75.92%
+  2196821 requests in 1.00m, 471.16MB read
+Requests/sec:  36552.14
+Transfer/sec:      7.84MB
+
+Running 1m test @ http://169.254.238.54:8086/json
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.70ms   16.80ms 251.52ms   93.29%
+    Req/Sec     8.58k     1.11k   12.92k    78.24%
+  2051916 requests in 1.00m, 1.23GB read
+Requests/sec:  34141.83
+Transfer/sec:     20.90MB
+
+Running 1m test @ http://169.254.238.54:8086/static.html
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     9.36ms   25.19ms 254.44ms   91.36%
+    Req/Sec     7.01k     1.21k   10.71k    72.21%
+  1676733 requests in 1.00m, 498.91MB read
+Requests/sec:  27898.71
+Transfer/sec:      8.30MB
 
 Gin
 
