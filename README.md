@@ -4,9 +4,9 @@
 
 Winners:
 
-| Performance | Latency | CPU | Memory |
-| ----------- | ------- | --- | ------ |
-| Gin         | Gin     | Gin | Vapor  |
+| Performance | Latency | CPU | Memory      |
+| ----------- | ------- | --- | ----------- |
+| Gin         | Gin     | Gin | Vapor, Gin  |
 
 ## Intro
 
